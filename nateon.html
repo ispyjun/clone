@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body,div,
+            dl,dt,dd,
+            ul,ol,li,
+            h1, h2, h3, h4, h5, h6,
+            pre,form,fieldset,
+            input,textarea,p,blockquote,
+            th,td {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                width: 100%;
+                height: 100%;
+            }
+            section{
+                width: 100%;
+                height: 800px;
+            }
+            a{
+                text-decoration: none;
+            }
+
+            /*header*/
+            .gnbWrap{
+                position:relative;width:80%;height:60px;margin:0 auto; padding-top:68px;
+            }
+            li{
+                list-style: none;
+                float:right;
+                margin-left:10px;
+            }
+            .navWrap{
+                float:top;
+            }
+            .navWrap{
+                float:left;
+            }
+           .snbArea{
+                position:relative;width:100%;height:100px;margin-left:10px auto;
+            }
+            .outlink{
+                float:right;
+            }
+            .main-container { position: relative; width:100%; margin-top:-1px; overflow: hidden; }
+            .main-container .section { width:100%; height:800px; overflow:hidden; }
+            .main-container .contents { position:relative; width:1100px; height:800px; margin:0 auto; } /*width:1214px; min-width:1100px; height:800px; */
+            .main-container .txtBox { position:absolute; }
+            .main-container .txtBox .tit { font-size: 55px; font-weight: bold; line-height: 1.3; letter-spacing: -2px; }
+            .main-container .txtBox .subtit { font-size: 18px; font-style: normal; line-height: 1.56; letter-spacing: -0.5px; }
+            .main-container .imgBox { position:absolute; }
+
+            .section_page1 { background-color:#7f99e2; }
+            .section_page1 .contents { width:1282px; left:82px; margin:0 auto; overflow:hidden; }
+            .section_page1 .txtBox { top:145px; width: 336px; z-index:2; }
+            .section_page1 .txtBox .tit, .section_page1 .txtBox .subtit { color: #ffffff; }
+            .section_page1 .txtBox .subtit { margin-top:30px; }
+
+            .section_page1.txtBox.downlink{ position:relative; width:400px; margin-top:50px; }
+            .section_page1.txtBox.downlink a{float:left;margin:0 13px 13px 0; width:181px; height:57px;}
+            .section_page1.txtBox.downlink a img{display:block;}
+
+            .section_page1 .imgBox { position:absolute; top:0; z-index:1; }
+            .section_page1 .imgBox .imgcnt { position:absolute; height:800px; top:0; }
+            .section_page1 .imgBox .imgcnt .ntmbimg { position:absolute; top:30px; left:451px; }
+            .section_page1 .imgBox .imgcnt .ntbimg { display:none; position:absolute; top:0; left:459px; }
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <div class="svcWrap">
+                <div class="gnbWrap">
+                    <h1>
+                        <a href="https://nateonweb.nate.com/">
+                        <img src="https://nateonweb.nate.com/menu/img/snb/img_nateonlogo.png" width="133" height="26" alr="nate On">
+                    </h1></a>
+                    <script type="text/javascript">
+                    var NateGNB=new classNateGNB("container");</script>
+                    <div id="textGNB" class="nateGnb">
+                        <div id="GnbWrap">
+                            <dl class="gnbmenu">
+                                <dd class="nate">
+                                    <ul>
+                                        <li><a target="nate"></a>메일</a></li>
+                                        <li><a target="nate"></a>뉴스</a></li>
+                                        <li><a target="nate"></a>판</a></li>
+                                        <li><a target="nate"></a>TV</a></li>
+                                        <li><a target="nate"></a>톡톡</a></li>
+                                        <li><a target="nate"></a>만화</a></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                
+                    <nav class="navWrap">
+                        <div class="snbArea" role="navigation">
+                            <ul>
+                                <li class="on">
+                                    <a href="https://nateonweb.nate.com/">네이트온</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://nateonweb.nate.com/teamroom/">팀룸</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://rsupport.nate.com/rview/r8/main/index.aspx">내PC제어</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://talkon.nate.com/">부가서비스</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="outlink">
+                        <a href="https://service.nateon.nate.com/board/">공지사항</a>
+                        <a href="https://erms.nate.com/faq/exSelfFAQList.jsp?parentNodeId=NODE0000001230&nodeDepth=0">고객센터</a>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <div class="main-container" id="container">
+            <section class="section_page1">
+                <div class ="contents">
+                    <div class="txtBox">
+                        <h3 class="tit">
+                            함께하는 일이 쉬워진다.
+                            <br>
+                            네이트온</h3>
+                        <div class="submit">
+                            편리함은 기본, 새로운 모습으로 변신한
+                            <br>
+                            네이트온과 만나보세요
+                            <br>
+                        </div>
+                        <div class="downlink">
+                            <a href="https://br.nate.com/index.php?code=F085">
+                            <img src="https://nateonweb.nate.com/menu/img/main/btn-windows.png"></a>
+                            <a href="https://br.nate.com/index.php?code=F065">
+                            <img src="https://nateonweb.nate.com/menu/img/main/btn-mac.png"></a>
+                            <a href="https://play.google.com/store/apps/details?id=Uxpp.UC&hl=ko">
+                            <img src="https://nateonweb.nate.com/menu/img/main/btn-google.png"></a>
+                            <a href="https://itunes.apple.com/kr/app/nateon/id362693357?mt=8">
+                            <img src="https://nateonweb.nate.com/menu/img/main/btn-appstore.png"></a>
+                        </div>
+                    </div>
+                    <div class="imgBox">
+                        <div class="imgcnt">
+                            <img src="https://nateonweb.nate.com/menu/img/main/keyvisual-mobile.png" width="832" height="738" alt="네이트온 Mobile 이미지" class="ntmbimg" style="display: block; opacity: 1;">
+                            <img src="https://nateonweb.nate.com/menu/img/main/keyvisual-pc.png" width="742" height="826" alt="네이트온 PC 이미지" class="ntbimg" style="display: block; opacity: 0;">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="section page2"></section>
+            <section class="section page3"></section>
+            <section class="section page4"></section>
+            <section class="section page5"></section>
+            <section class="section page6"></section>
+        </div>
+        <footer>
+
+        </footer>
+    </body>
+</html>
